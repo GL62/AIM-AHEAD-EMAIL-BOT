@@ -14,6 +14,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from openai import OpenAI
 
+
 class PyVizProAssistant:
     def __init__(self, openai_api_key, organization_key, db_name, faq_file_path = None):
         os.environ['SomeKey'] = openai_api_key
