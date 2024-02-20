@@ -8,7 +8,6 @@ from email.mime.text import MIMEText
 
 
 
-
 class mail_bot:
     def __init__(self, api_key, api_role, sender, mail_host, password, sender_email, sent_folder, inbox_folder, IMAP_SSL, SMTP_SSL):
         self.api_key = api_key
